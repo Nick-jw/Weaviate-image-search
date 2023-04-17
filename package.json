@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,12 @@
   "homepage": "https://github.com/Nick-jw/Weaviate-image-search#readme",
   "devDependencies": {
     "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.58.0",
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
     "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "weaviate-ts-client": "^1.0.0"
   }
 }
